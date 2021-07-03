@@ -1,0 +1,370 @@
+/*barra inicial com redes sociais*/
+.inicio {
+    background-color: rgb(144, 58, 201);
+    color: white;
+    padding: 0.5%;
+}
+
+#insta{
+    position:sticky;
+    left: 6px;
+    margin-top: -65px;
+}
+
+#yt{
+    position:sticky;
+    left: 43px;
+    top: 14px;
+}
+
+#tiktok{
+    position:sticky;
+    left: 70px;
+    top: 14px;
+}
+
+#logo {
+    position:fixed;
+    left: 1270px;
+    top: -10px;
+}
+
+/*barra com textos*/
+
+.barra{
+    background-color: rgb(241, 144, 79);
+    padding: -1%;
+    border-top: 1px solid rgba(255, 255, 255, 0.603);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+    position:sticky;
+    word-spacing: 20px;
+}
+
+#texto{
+    line-height: 10px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    text-align:center;
+}
+
+.nomes_limpos {
+    text-decoration: none;
+    color: white;
+}
+
+/*foto do produto*/
+#img_produto1 {
+    width: 520px;
+    height: 510px;
+    border-radius: 1em;
+    position: absolute;
+    top: 140px;
+    left: 110px;
+}
+
+/*texto ao lado da foto do produto*/
+.pdt_nome {
+    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 30px;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    position: absolute;
+    right: 250px;
+    top:140px;
+}
+
+.preco {
+    font-family: 'Nunito', sans-serif;
+    font-weight:bolder;
+    font-size: 27px;
+    color: rgb(189, 123, 233);
+    position: absolute;
+    right: 591px;
+    top: 230px;
+}
+
+/*icon vector do cartão pequeno*/
+#img_cartao {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 680px;
+    top: 320px;
+}
+
+/*texto ao lado do ícone de cartão*/
+.texto_parcelamento {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    right: 575px;
+    top: 303px;
+} 
+
+/*imagem que acompanha informação de desconto*/
+#img_dinheiro {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 672px;
+    top: 352px;
+}
+
+/*textos ao lado da imagem*/
+.texto_desconto {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    color: rgb(219, 181, 255);
+    position: absolute;
+    right: 559px;
+    top: 342px;
+}
+
+.continuacao {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    right: 415px;
+    top: 342px;
+}
+
+.contxt {
+    font-size: 15px;
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    right: 480px;
+    top: 370px;
+}
+
+/*caixa de quantidade*/
+#btn_number {
+    padding: 10px;
+    width: 80px;
+    background-color: transparent;
+    border-color:rgba(77, 77, 77, 0.452);
+    border-radius: 0.8em;
+    outline: none;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    position: absolute;
+    right: 595px;
+    top: 435px;
+}
+
+#btn_number:hover{
+    padding: 10px;
+    width: 80px;
+    background-color: transparent;
+    border-color:rgb(180, 100, 255);
+    border-radius: 0.8em;
+    position: absolute;
+    right: 595px;
+    top: 435px;
+}
+
+/*botão de comprar*/
+#btn_comprar{
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(205, 152, 255);
+    border-radius: 3em;
+    border: none;
+    width: 250px;
+    padding: 11px;
+    position: absolute;
+    right: 320px;
+    top: 433px;
+}
+
+#btn_comprar:hover{
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgba(191, 123, 255, 0.404);
+    border-radius: 3em;
+    border: none;
+    width: 250px;
+    padding: 11px;
+    position: absolute;
+    right: 320px;
+    top: 433px;
+}
+
+/*imagens e textos abaixo dos botões*/
+#img_retorno {
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 669px;
+    top: 500px;
+}
+
+.txt_retorno {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    right: 445px;
+    top: 489px;
+}
+
+.cont_retorno {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 388px;
+    top: 515px;
+}
+
+.cont_retorno2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 379px;
+    top: 530px;
+}
+
+.cont_retorno3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 498px;
+    top: 545px;
+}
+
+
+#img_caixa {
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 667px;
+    top: 585px;
+}
+
+.txt_caixa {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    position: absolute;
+    right: 418px;
+    top: 575px;
+}
+
+.cont_caixa {
+    font-family: 'Muli', sans-serif; 
+    font-size: 12px;
+    position: absolute;
+    right: 382px;
+    top: 600px; 
+}
+
+.cont_caixa2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 367px;
+    top: 615px;
+}
+
+/*descrição dos produtos*/
+.list{
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 45px;
+    position: relative;
+    top: 580px;
+    left: 90px;
+}
+
+/*mais uma foto dos produtos*/
+#img_pdt2 {
+    width: 680px;
+    height: 650px;
+    border-radius: 1em;
+    position: absolute;
+    top: 970px;
+    left: 110px;
+}
+
+/*rodapé*/
+.rodape{
+    background-color: #ffd493;
+    width: 1330px;
+    text-align: center;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -1400px; 
+}
+
+.artRodape{
+    border: 1px; 
+    color: #FFF;
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.limpar {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+   padding: 4px;
+   width: 40px;
+   background: rgb(231, 189, 255);
+   border-radius: 100%;
+}
+
+.img:hover {
+    padding: 4px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 100%;
+ }
+
+.li {
+    list-style: none;
+}
+
+.h2{
+    margin-left: 40px;
+    padding-left: 5px;
+}
+
+.barra_final {
+    background-color: #e993ff;
+    padding: 0.3%;
+    width: 1322px;
+    position: absolute;
+    bottom: -1448px;
+}
+
+#texto_barra {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;    
+}

@@ -1,0 +1,600 @@
+/*barra inicial com redes sociais*/
+body{
+    height: 1000px;
+}
+.inicio {
+    background-color: rgb(144, 58, 201);
+    color: white;
+    padding: 0.5%;
+}
+
+#insta{
+    position:sticky;
+    left: 6px;
+    margin-top: -65px;
+}
+
+#yt{
+    position:sticky;
+    left: 43px;
+    top: 14px;
+}
+
+#tiktok{
+    position:sticky;
+    left: 70px;
+    top: 14px;
+}
+
+#logo {
+    position:fixed;
+    left: 1270px;
+    top: -10px;
+}
+
+/*barra com textos*/
+
+.barra{
+    background-color: rgb(241, 144, 79);
+    padding: -1%;
+    border-top: 1px solid rgba(255, 255, 255, 0.603);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+    position:sticky;
+    word-spacing: 20px;
+}
+
+#texto{
+    line-height: 10px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    text-align:center;
+}
+
+.nomes_limpos {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*card do primeiro produto*/
+.card_pdt1 {
+    background-color:#ffffff;
+    border: 0.5px solid rgba(87, 87, 87, 0.438);
+    border-radius: 2em;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 45px;
+    top:77px;
+}
+
+.card_pdt1:hover {
+    box-shadow: 1.5px 1.5px 15px #00000046;
+}
+
+#img_card1 {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#titulo_pdt {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 15px;
+}
+
+#titulo_pdt:hover {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: rgba(70, 70, 70, 0.507);
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 15px;
+}
+
+#preco_pdt1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(138, 64, 187);
+    position: relative;
+    left: 120px;
+    top: 322px;
+}
+
+#btn_compra1 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgb(136, 80, 189);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_compra1:hover {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(253, 239, 231);
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgba(154, 101, 180, 0.623);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_espia1 {
+    background-color: transparent;
+    border: 0.8px solid orange;
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: orange;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+#btn_espia1:hover {
+    background-color: transparent;
+    border: 1px solid rgba(255, 167, 3, 0.500);
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(252, 169, 3, 0.500);
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+
+/*card do segundo produto*/
+.card_pdt2 {
+    background-color:#ffffff;
+    border: 0.5px solid rgba(87, 87, 87, 0.438);
+    border-radius: 2em;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 490px;
+    top:-403px;
+}
+
+.card_pdt2:hover {
+    box-shadow: 1.5px 1.5px 15px #00000046;
+}
+
+#img_card2 {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#titulo_pdt2 {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 20px;
+}
+
+#titulo_pdt2:hover {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: rgba(70, 70, 70, 0.507);
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 20px;
+}
+
+#preco_pdt2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(138, 64, 187);
+    position: relative;
+    left: 120px;
+    top: 322px;
+}
+
+#btn_compra2 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgb(136, 80, 189);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_compra2:hover {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(253, 239, 231);
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgba(154, 101, 180, 0.623);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_espia2 {
+    background-color: transparent;
+    border: 0.8px solid orange;
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: orange;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+#btn_espia2:hover {
+    background-color: transparent;
+    border: 1px solid rgba(255, 167, 3, 0.500);
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(252, 169, 3, 0.500);
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+
+/*card do terceiro produto*/
+.card_pdt3 {
+    background-color:#ffffff;
+    border: 0.5px solid rgba(87, 87, 87, 0.438);
+    border-radius: 2em;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 930px;
+    top:-886px;
+}
+
+.card_pdt3:hover {
+    box-shadow: 1.5px 1.5px 15px #00000046;
+}
+
+#img_card3 {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#titulo_pdt3 {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 50px;
+}
+
+#titulo_pdt3:hover {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: rgba(70, 70, 70, 0.507);
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 50px;
+}
+
+#preco_pdt3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(138, 64, 187);
+    position: relative;
+    left: 120px;
+    top: 322px;
+}
+
+#btn_compra3 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgb(136, 80, 189);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_compra3:hover {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(253, 239, 231);
+    font-weight: 400;
+    font-size: 11px;
+    background-color: rgba(154, 101, 180, 0.623);
+    border-radius: 3em;
+    border: none;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 60px;
+    top: 427px;
+}
+
+#btn_espia3 {
+    background-color: transparent;
+    border: 0.8px solid orange;
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: orange;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+#btn_espia3:hover {
+    background-color: transparent;
+    border: 1px solid rgba(255, 167, 3, 0.500);
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(252, 169, 3, 0.500);
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 183px;
+    top: 427px;
+}
+
+/*card do quarto produto*/
+.card_pdt4 {
+    background-color:#ffffff;
+    border: 0.5px solid rgba(87, 87, 87, 0.438);
+    border-radius: 2em;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    left: 40px;
+    top:-850px;
+}
+
+.card_pdt4:hover {
+    box-shadow: 1.5px 1.5px 15px #00000046;
+}
+
+#img_card4 {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#titulo_pdt4 {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 77px;
+}
+
+#titulo_pdt4:hover {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: rgba(70, 70, 70, 0.507);
+    font-size: 17px;
+    position: relative;
+    top: 325px;
+    left: 77px;
+}
+
+#preco_pdt4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(138, 64, 187);
+    position: relative;
+    left: 120px;
+    top: 322px;
+}
+
+#btn_espia4 {
+    background-color: transparent;
+    border: 0.8px solid orange;
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: orange;
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 110px;
+    top: 427px;
+}
+
+#btn_espia4:hover {
+    background-color: transparent;
+    border: 1px solid rgba(255, 167, 3, 0.500);
+    border-radius: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(252, 169, 3, 0.500);
+    width: 110px;
+    padding: 10px;
+    position: absolute;
+    left: 110px;
+    top: 427px;
+}
+
+/*card para mostrar que ta esgotado*/
+.card_esgotado {
+    background-color: rgb(250, 243, 250);
+    border-radius: 0.7em;
+    width: 110px;
+    position: absolute;
+    left: 65px;
+    top: 705px;
+
+}
+
+#txt_esgotado {
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    color: rgb(106, 16, 124);
+}
+
+
+
+/*rodapé*/
+.rodape{
+    background-color: #ffd493;
+    width: 1330px;
+    text-align: center;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -943px;
+}
+
+.artRodape{
+    border: 1px; 
+    color: #FFF;
+    width: 50%;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.limpar {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+   padding: 4px;
+   width: 40px;
+   background: rgb(231, 189, 255);
+   border-radius: 100%;
+}
+
+.img:hover {
+    padding: 4px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 100%;
+ }
+
+.li {
+    list-style: none;
+}
+
+.h2{
+    margin-left: 40px;
+    padding-left: 5px;
+}
+
+.barra_final {
+    background-color: #e993ff;
+    padding: 0.3%;
+    width: 1322px;
+    position: absolute;
+    bottom: -990px;
+}
+
+#texto_barra {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Muli', sans-serif;
+    font-weight: 500;    
+}

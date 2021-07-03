@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Tom de Amor</title>
+    <link rel="shortcut icon" href="../images/ico.png">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css" />
+</head>
+
+<body bgcolor="#F5F5F5">
+
+    <nav>
+        <div class="barra_redesocial">
+            <div class="redesociais">
+                <a href="https://www.instagram.com/tom.deamor/">
+                    <img src="../images/insta.png" width="16" height="16" title="Acesse nosso insta!" />
+                </a>
+                <a href="https://www.instagram.com/tom.deamor/">
+                    <img src="../images/yt.png" width="16" height="16" title="Acesse nosso youtube!" />
+                </a>
+                <a href="https://www.instagram.com/tom.deamor/">
+                    <img src="../images/tt.png" width="16" height="16" title="Acesse nosso tiktok!" />
+                </a>
+            </div>
+            <div>
+                <img src="../images/capture.png" width="75" height="75" title="Logo" id="logo">
+            </div>
+        </div>
+
+        <div class="sub_barra">
+            <a href="index.html" class="nomes_limpos">Início</a>
+            <a href="tudo.html" class="nomes_limpos">Tudo</a>
+            <a href="contact.html" class="nomes_limpos"> Contato </a>
+        </div>
+    </nav>
+
+
+    <div class="elementos">
+        <div class="contact">
+            <img src="../images/contato.png" width="300" height="200" />
+        </div>
+
+
+        <form method="POST">
+            <fieldset>
+                <legend>Preencha o campo</legend>
+                <div class="center">
+                    <div class="input">
+                        <label for="nome">Nome</label><br />
+                        <input type="text" id="nome" placeholder="Digite seu nome"/>
+                    </div>
+                    <br />
+                    <div class="input">
+                        <label for="email">E-mail</label><br />
+                        <input type="email" id="email" placeholder="jisung@gmail.com"/>
+                    </div>
+                    <br />
+                    <div class="input">
+                        <label for="telefone">Telefone</label><br />
+                        <input type="tel" id="telefone" placeholder="(XX) X XXXX-XXXX"/>
+                    </div>
+                    <br />
+                    <div class="input">
+                        <label for="mensagem">Mensagem</label><br />
+                        <textarea name="" id="mensagem" cols="55" rows="10"></textarea>
+                    </div>
+                    <br />
+                    <div>
+                        <span>Gostaria de receber novidades no e-mail?</span>
+                        <input type="radio" id="sim" value="Sim"><label for="Sim">Sim</label>
+                        <input type="radio" id="nao" value="Nao"><label for="Nao">Não</label>
+                    </div>
+                    <br/>
+                    <div>
+                        <span>Defina seu nível de satisfação com nossos serviços:</span><br/>
+                        <span>Pouco satisfeito</span>
+                        <input type="range" id="satisfacao" min="0" max="10">
+                        <span>Muito satisfeito</span>
+                    </div>
+                </div>
+            </fieldset>
+            <div>
+                <input type="reset" value="Resetar" id="reset">
+                <input type="submit" value="Enviar" id="botao" onclick="msg()">
+            </div>
+        </form>
+    </div>
+    <footer class="rodape">
+        <article class="artRodape">
+            <p><h2>Sobre nós:</h2></p>
+            <p>Somos uma lojinha de produtos de papelaria personalizados do modo que você preferir. Nosso objetivo é transformar papéis em Amor! ❤</p>
+        </article>
+        <article class="artRodape">
+            <p><h2>Redes Sociais:</h2></p>
+                <a href="https://www.instagram.com/tom.deamor/" class="nomes_limpos">
+                <img src="../images/insta.png" class="img" width="5px">
+                </a>
+                <a href="https://vm.tiktok.com/ZMdDf6kfP/" class="nomes_limpos">
+                <img src="../images/tt.png" class="img" width="5px">
+                </a>
+                <a href="https://youtu.be/HcWDLNoqT8U" class="nomes_limpos">
+                <img src="../images/yt.png" class="img" width="5px">
+                </a>
+        </article>
+        <article class="artRodape">
+            <p><h2 class="h2">Menu:</h2></p>
+            <ul>
+                <a href="personalizado.html" class="limpar">
+                <li class="li">Cadernos</li>
+                </a>
+                <a href="bloco.html" class="limpar">
+                <li class="li">Memo pads</li>
+                </a>
+                <a href="caderno.html" class="limpar">
+                <li class="li">Planners</li>
+                </a>
+        </article>
+    </footer>
+
+    <footer>
+        <div class="barra_final">
+            <p id="texto_barra">
+                      Copyright: Iriany, Edwiges e Bia ❤ - 2021. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+    
+
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function msg() {
+            Swal.fire({
+                title: 'Jisung!',
+                width: 500,
+                padding: '2em',
+                background: '#fff url(../images/fundo.gif)',
+                backdrop: `
+                rgba(255,255,255,0.5) 
+                url("../images/original.gif") 
+                left bottom
+                no-repeat
+            `
+            })
+        }
+    </script>
+</body>
+
+</html>
